@@ -1,5 +1,5 @@
 //Returns true when value is from fibonacci series, similar to fizzbuzz
-
+//this does not use recursive calls to calculate fibonacci series, uses memoization
 public class FibonacciTester{
 	public static void main(String[] args){
 		Fibtest test = new Fibtest(30);
