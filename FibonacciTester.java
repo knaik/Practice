@@ -1,3 +1,4 @@
+//Author Karan Naik
 //Returns true when value is from fibonacci series, similar to fizzbuzz
 //this does not use recursive calls to calculate fibonacci series, uses memoization
 public class FibonacciTester{
