@@ -1,13 +1,15 @@
 //Author Karan Naik
 //Returns true when value is from fibonacci series, similar to fizzbuzz
-//this does not use recursive calls to calculate fibonacci series, uses memoization
+//this does not use recursive calls to calculate fibonacci series
 public class FibonacciTester{
 	public static void main(String[] args){
 		Fibtest test = new Fibtest(30);
 		System.out.print(test);
-		//output: 0 inFib inFib inFib 4 inFib 6 7 inFib 9 10 11 12 inFib 14 15 16 17 18 19 20 inFib 22 23 24 25 26 27 28 29 30
+		//out: 0 inFib inFib inFib 4 inFib 6 7 inFib 9 10 11 12 inFib
+		//     14 15 16 17 18 19 20 inFib 22 23 24 25 26 27 28 29 30
 		
-		//might need closed form solution for calculating fibonacci numbers. Fibgen.size needed to change
+		//Fibgen.size holds how many to calculate
+		//might need closed form solution for calculating  numbers.
 	}
 }
 
