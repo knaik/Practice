@@ -1,7 +1,8 @@
 public class FizzBuzzTester{
 	public static void main(String[] args){
 		FizzBuzzer firstFizz = new FizzBuzzer(20);
-		System.out.println(firstFizz);
+		System.out.println(firstFizz); 
+		//output: 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
 	}
 }
 
@@ -18,7 +19,7 @@ class FizzBuzzer{
 	
 	public FizzBuzzer(int stop){
 		this();
-		stopPoint = stop;
+		stopPoint = stop + 1;
 	}
 	
 	public String toString(){
