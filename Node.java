@@ -17,7 +17,11 @@ class Node{
         next = nn;
     }
 
-    public void points(Node nn){
+    public void setNext(Node nn){
         next = nn;
+    }
+
+    public Node getNext(){
+        return next;
     }
 }
