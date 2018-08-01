@@ -6,7 +6,8 @@ public class FizzBuzzTester{
 		FizzBuzzer secondFizz = new FizzBuzzer(4, 7, 30);
 		System.out.println(secondFizz); 
 		//output: 1 2 3 fizz 5 6 buzz fizz 9 10 11 fizz 13 buzz 15 fizz 17 18 19 fizz buzz 22 23 fizz 25 26 27 fizzbuzz 29
-
+		
+		System.out.println("testing vscode");
 	}
 }
 
